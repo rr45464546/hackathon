@@ -48,7 +48,7 @@ var questions = [
     new Question("How many new HCV infections are there per year worldwide?",["800 thousand","2 million","20 million","40 million"],"2 million","Anywhere between 60%-85% of these go on to become chronic"),
     new Question("Approximately what percentage of infected persons in the US are unaware of their infection?",["10%","25%","50%","75%","90%"],"50%","Although there aren't estimates for the rest of the world, the undiagnosed population is likely even higher within developing nations"),
     new Question("What are some of the disease complications related to HCV?",["Liver cancer","Liver cirrhosis / fibrosis","Liver failure","All of the above"],"All of the above","The liver can regenerate even after removal of almost 90% of your liver. Chronic HCV infection causes this regenerative power to create more scar tissue and cell replication, inducing cirrhosis and cancerous liver cells"),
-    new Question("Follow-up question; what is WHO's estimated number of deaths due to HCV complications per year worldwide?",["25 thousand","100 thousand","150 thousand","200 thousand","400 thousand"],"400 thousand","This is an incredible number of deaths that can be prevented with early treatment")
+    new Question("Follow-up question; what is WHO's estimated number of deaths due to HCV complications per year worldwide?",["400 thousand","200 thousand","100 thousand","50 thousand"],"400 thousand","This is an incredible number of deaths that can be prevented with early treatment")
 ];
 
 // create quiz
