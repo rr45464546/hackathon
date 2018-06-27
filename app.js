@@ -43,11 +43,12 @@ function showScores() {
 
 // create questions
 var questions = [
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#","C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6","2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework")
+    new Question("Hepatitis C is a treatable, viral infection. What is the HCV incubation time?", ['1-2 days','1-2 weeks','2 weeks to 6 months','6 months to 1 year'],'2 weeks to 6 months'),
+	new Question("Approximately many people around the world are living with chronic HCV?",['700 thousand','7 million','70 million','700 million','7 billion'],'70 million'),
+    new Question("How many new HCV infections are there per year worldwide?",['800 thousand','2 million','20 million','40 million'],'2 million'),
+	new Question("Approximately what percentage of infected persons in the US are unaware of their infection?",['10%','25%','50%','75%','90%'],'50%'),
+    new Question("What are some of the disease complications related to HCV?",['Liver cancer','Liver cirrhosis / fibrosis','Liver failure','All of the above'],'All of the above')
+	new Question("Follow-up question; what is WHO's estimated number of deaths due to HCV complications per year worldwide?",['25 thousand','100 thousand','150 thousand','200 thousand','400 thousand'],'400 thousand')
 ];
 
 // create quiz
