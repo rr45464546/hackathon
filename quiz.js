@@ -11,9 +11,23 @@ Quiz.prototype.getQuestionIndex = function() {
 Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().isCorrectAnswer(answer)) {
         this.score++;
+		
     }
 
     this.questionIndex++;
+}
+
+Quiz.prototype.getQuestionIndex2 = function() {
+    return this.questions[this.questionIndex-1];
+}
+
+Quiz.prototype.bool = function(answer) {
+    if(this.getQuestionIndex2().isCorrectAnswer(answer)) {
+        return(false);
+		
+    }
+
+    return (true);
 }
 
 Quiz.prototype.isEnded = function() {
