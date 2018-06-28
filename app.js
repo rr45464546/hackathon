@@ -1,6 +1,8 @@
 function populate() {
     if(quiz.isEnded()) {
-        showScores();
+        //showScores();
+		var element = document.getElementById("quiz");
+            element.innerHTML = '<img src="final.png" id="final"  width="425" height="550">';
     }
     else {
         // show question
@@ -70,7 +72,7 @@ function showScores() {
 
 // create questions
 var questions = [
-    new Question("Hepatitis C is a treatable, viral infection. What is the HCV incubation time?", ["1-2 days","1-2 weeks","2 weeks to 6 months","6 months to 1 year"],"2 weeks to 6 months","Did you know that we don't have an awesome fact for you at the moment?"),
+    new Question("Hepatitis C is a treatable, viral infection. What is the HCV incubation time?", ["1-2 days","1-2 weeks","2 weeks to 6 months","6 months to 1 year"],"2 weeks to 6 months","Did you know that HCV is only diagnosable by blood test?"),
     new Question("Approximately many people around the world are living with chronic HCV?",["700 thousand","7 million","70 million","700 million","7 billion"],"70 million","Nearly 1 out of every 100 people suffer from chronic HCV infection"),
     new Question("How many new HCV infections are there per year worldwide?",["800 thousand","2 million","20 million","40 million"],"2 million","Anywhere between 60%-85% of these go on to become chronic"),
     new Question("Approximately what percentage of infected persons in the US are unaware of their infection?",["10%","25%","50%","75%","90%"],"50%","Although there aren't estimates for the rest of the world, the undiagnosed population is likely even higher within developing nations"),

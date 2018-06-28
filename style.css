@@ -6,7 +6,7 @@ body {
     width: 600px;
     height: 500px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 10px 50px 50px 50px;
     border-radius: 0px;
     border: 2px solid #cbcbcb;
@@ -23,6 +23,11 @@ body {
 	z-index: 10;
 	
 }
+
+#final{
+	margin: 0px 0px 0px 90px;
+}
+
 
 #dialogbox{
 	display:none;
