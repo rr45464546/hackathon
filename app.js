@@ -37,8 +37,8 @@ function CustomAlert(){
 			document.getElementById('dialogbox').style.display= "none";
 			document.getElementById('dialogoverlay').style.display="none";
 		}
-		this.wrong= function(){
-			document.getElementById('dialogboxhead').innerHTML= 'Not exactly,';
+		this.wrong= function(answer){
+			document.getElementById('dialogboxhead').innerHTML= 'Not exactly, the right answer is: '+answer;
 		}
 		
 }
@@ -49,7 +49,7 @@ function guess(id, guess, flavor) {
     button.onclick = function() {
         quiz.guess(guess);
 		Alert.render(flavor1);
-		if (quiz.bool(guess)) Alert.wrong()  ;
+		if (quiz.bool(guess)) Alert.wrong(quiz.getQuestionIndex2().answer);
         populate();
     }
 };

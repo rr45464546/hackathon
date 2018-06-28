@@ -1,5 +1,5 @@
 body {
-    background-color: 	#353839;
+    background-color: 	#008081;
 }
 
 .grid {
@@ -54,6 +54,26 @@ body {
     font-size: 30px;
 }
 
+
+#progress {
+ 
+	 color: #2b2b2b;
+	 font-size: 18px;
+	 margin: 0px 0px 0px 0px;
+	 display:inline;
+	position: relative;
+}
+
+#image{
+	
+	position: absolute; 
+top: 455px; 
+left: 200px; 
+	 margin: 0px 0px 0px 300px;
+	
+	
+}
+
 .grid #question {
     font-family: "monospace";
     font-size: 30px;
@@ -84,7 +104,3 @@ body {
     outline: 0;
 }
 
-#progress {
-    color: #2b2b2b;
-    font-size: 18px;
-}
